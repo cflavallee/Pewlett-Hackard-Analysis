@@ -4,15 +4,15 @@
 The purpose of this analysis was to use SQL and Postgres to find out how many employees at Pewlett Hackard are set to retire, as well as those eligible for a mentorship program.  Analyzing and understanding these numbers will help Pewlett Hackard to attempt to ease the wave of retirees in the near future.  
 
 ## Results
---There are an extremely large number of employees set to retire from Pewlett Hackard.  This could have serious repercussions for the company if not handled properly.  
+* There are an extremely large number of employees set to retire from Pewlett Hackard.  This could have serious repercussions for the company if not handled properly.  
 
 ### Employees Set To Retire by Title
---The greatest number of retirees fall under the titles of Senior Engineer and Senior Staff.  This means that current and future employees will need proper training to fill these Senior roles.  
+* The greatest number of retirees fall under the titles of Senior Engineer and Senior Staff.  This means that current and future employees will need proper training to fill these Senior roles.  
 
 ![Retiring Titles](https://github.com/cflavallee/Pewlett-Hackard-Analysis/blob/main/retiring%20titles.PNG)
 
 ### Mentorship-Eligible Employees by Title
---The number of employees eligible for the mentorship program is quite small.  The program could easily be expanded, even if a fraction of retiring employees stay on board part-time to mentor.  It would also  
+* The number of employees eligible for the mentorship program is quite small.  The program could easily be expanded, even if a fraction of retiring employees stay on board part-time to mentor.  It would also  
 
 ![Mentorship Titles](https://github.com/cflavallee/Pewlett-Hackard-Analysis/blob/main/mentorship%20titles.PNG)
 
