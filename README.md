@@ -1,8 +1,22 @@
 # Pewlett-Hackard-Analysis
 
 ## Overview
-The purpose of this analysis is to use SQL and Postgres to find out how many employees at Pewlett Hackard are set to retire, as well as those eligible for a mentorship program.  Analyzing and understanding these numbers will help Pewlett Hackard to attempt to ease the wave of retirees in the near future.  
+The purpose of this analysis was to use SQL and Postgres to find out how many employees at Pewlett Hackard are set to retire, as well as those eligible for a mentorship program.  Analyzing and understanding these numbers will help Pewlett Hackard to attempt to ease the wave of retirees in the near future.  
 
 ## Results
+--There are an extremely large number of employees set to retire from Pewlett Hackard.  This could have serious repercussions for the company if not handled properly.  
+
+### Employees Set To Retire by Title
+--The greatest number of retirees fall under the titles of Senior Engineer and Senior Staff.  This means that current and future employees will need proper training to fill these Senior roles.  
+
+![Retiring Titles](https://github.com/cflavallee/Pewlett-Hackard-Analysis/blob/main/retiring%20titles.PNG)
+
+### Mentorship-Eligible Employees by Title
+--The number of employees eligible for the mentorship program is quite small.  The program could easily be expanded, even if a fraction of retiring employees stay on board part-time to mentor.  It would also  
+
+![Mentorship Titles](https://github.com/cflavallee/Pewlett-Hackard-Analysis/blob/main/mentorship%20titles.PNG)
 
 ## Summary
+The number of roles that will need to be filled is massive, potentially around 90,000 positions in the near future, including 2 manager roles.  The mentorship may be able to alleviate some of the burden, but additional measures and hiring strategies will need to be deployed to ensure the continued success of the company.  
+
+The number of qualified retirement-ready inviduals far exceeds those deemed eligible for a mentorship program.  An expansion of the mentorship program would be advisable to ensure that enough qualified staff will take over for those retiring. 
