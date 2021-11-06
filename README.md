@@ -11,7 +11,7 @@ Overall, the numbers show some glaring issues that will need to be addressed.  B
 * There are an extremely large number of employees set to retire from Pewlett Hackard in the near future, potentially up to 72,458 (see Fig. 1), which accounts for about 30% of total employees.  This could have serious repercussions for the company if not handled properly.  
 
 Fig. 1
-![Total Retirement-Eligible](https://github.com/cflavallee/Pewlett-Hackard-Analysis/tree/main/Images/total%20retiring%20employees.PNG)
+![Total Retirement-Eligible](https://github.com/cflavallee/Pewlett-Hackard-Analysis/blob/main/Images/total%20retiring%20employees.PNG)
 
 ### Employees Set To Retire by Title
 
