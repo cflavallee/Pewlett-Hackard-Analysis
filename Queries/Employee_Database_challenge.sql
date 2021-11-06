@@ -58,7 +58,47 @@ FROM employee_mentorship
 GROUP BY title
 ORDER BY COUNT(emp_no) DESC;
 
+--total mentorship-eligible employees
+SELECT COUNT(emp_no)FROM employee_mentorship;
 
+-- Retiring Employees by Department
+SELECT DISTINCT ON (e.emp_no)
+e.emp_no,
+de.dept_no,
+d.dept_name
+INTO retiring_employees_by_department
+FROM employees as e
+INNER JOIN dept_emp as de
+ON (e.emp_no = de.emp_no)
+LEFT JOIN departments as d
+ON (de.dept_no = d.dept_no)
+WHERE (e.birth_date BETWEEN '1952-01-01' AND '1955-12-31')
+AND (de.to_date = '9999-01-01');
+
+SELECT COUNT(emp_no), dept_name
+FROM retiring_employees_by_department
+GROUP BY dept_name
+ORDER BY COUNT(emp_no) DESC;
+
+
+-- Mentorship Employees by Department
+SELECT DISTINCT ON (e.emp_no)
+e.emp_no,
+de.dept_no,
+d.dept_name
+INTO mentorship_employees_by_department
+FROM employees as e
+INNER JOIN dept_emp as de
+ON (e.emp_no = de.emp_no)
+LEFT JOIN departments as d
+ON (de.dept_no = d.dept_no)
+WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
+AND (de.to_date = '9999-01-01');
+
+SELECT COUNT(emp_no), dept_name
+FROM mentorship_employees_by_department
+GROUP BY dept_name
+ORDER BY COUNT(emp_no) DESC;
 
 -- Employees by Hire Date
 SELECT DISTINCT ON (e.emp_no) e.emp_no,
