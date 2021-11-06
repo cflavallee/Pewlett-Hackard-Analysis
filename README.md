@@ -29,8 +29,7 @@ Fig. 2
 Fig. 3
 ![Mentorship Titles](https://github.com/cflavallee/Pewlett-Hackard-Analysis/blob/main/mentorship%20titles.PNG)
 
-Fig. 4
-![Mentorship Titles](https://github.com/cflavallee/Pewlett-Hackard-Analysis/blob/main/current%20department%20managers.PNG)
+Fig. 4 ![Mentorship Titles](https://github.com/cflavallee/Pewlett-Hackard-Analysis/blob/main/current%20department%20managers.PNG)
 
 ## Summary
 The number of roles that will need to be filled is massive, potentially around 90,000 positions in the near future, including 2 manager roles.  The mentorship program may be able to alleviate some of the burden, but additional measures and hiring strategies will need to be deployed to ensure the continued success of the company.  
