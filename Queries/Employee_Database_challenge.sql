@@ -10,6 +10,7 @@ FROM employees as e
 INNER JOIN titles as t
 ON (e.emp_no = t.emp_no)
 WHERE (e.birth_date BETWEEN '1952-01-01' AND '1955-12-31')
+AND (t.to_date = '9999-01-01')
 ORDER BY e.emp_no;
 
 
@@ -112,7 +113,7 @@ SELECT DISTINCT ON (e.emp_no) e.emp_no,
 	   t.title
 INTO employee_retiring_salaries
 FROM employees as e
-INNER JOIN salaries as s
+LEFT JOIN salaries as s
 ON (e.emp_no = s.emp_no)
 LEFT JOIN titles as t
 ON (e.emp_no = t.emp_no)
@@ -120,8 +121,45 @@ WHERE (e.birth_date BETWEEN '1952-01-01' AND '1955-12-31')
 AND (t.to_date = '9999-01-01');
 
 SELECT SUM(salary), title
-FROM employee_retiring_salaries
-GROUP BY employee_retiring_salaries.title;
+FROM employee_retiring_salaries as ers
+GROUP BY ers.title;
 
+DROP TABLE employee_retiring_salaries;
+
+SELECT SUM(salary)
+FROM employee_retiring_salaries;
+
+
+3,832,741,608
 	
 select * from salaries;
+
+-- Sum of salaries for non-retirement eligible employees.
+SELECT DISTINCT ON(e.emp_no) e.emp_no,
+    e.first_name,
+	e.last_name,
+    s.salary,
+    de.to_date
+INTO current_emp_salaries
+FROM employees as e
+INNER JOIN salaries as s
+ON (e.emp_no = s.emp_no)
+INNER JOIN dept_emp as de
+ON (e.emp_no = de.emp_no)
+WHERE (e.birth_date BETWEEN '1956-01-01' AND '1999-12-31')
+      AND (de.to_date = '9999-01-01');
+	  
+SELECT SUM(salary)
+FROM current_emp_salaries;
+
+SELECT COUNT(emp_no)
+FROM current_emp_salaries;
+
+SELECT COUNT(emp_no)
+FROM employee_retiring_salaries;
+
+167,666 current employees
+$8,889,804,831
+
+90,389
+3,832,741,608
