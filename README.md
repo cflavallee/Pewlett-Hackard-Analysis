@@ -24,7 +24,7 @@ Fig. 2
 
 * The number of employees eligible for the mentorship program is quite small (see Fig. 3).  The program could easily be expanded, even if a fraction of retiring employees stay on board part-time to mentor. 
 
-* Another area to focus on could be management roles and management structure.  Only 2 of the 9 department managers are retirement-eligible and none of the mentorship eligible employees are managers (see Fig. 4).  This could be an opportunity to work with current managers related to the mentorship program, and/or possiblly restructure how departments are managed.
+* Another area to focus on could be management roles and management structure.  Only 2 of the 9 department managers are retirement-eligible (see Fig. 2) and none of the mentorship eligible employees are managers (see Fig. 4).  This could be an opportunity to work with current managers related to the mentorship program, and/or possiblly restructure how departments are managed.
 
 Fig. 3
 ![Mentorship Titles](https://github.com/cflavallee/Pewlett-Hackard-Analysis/blob/main/mentorship%20titles.PNG)
