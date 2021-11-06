@@ -33,7 +33,7 @@ Fig. 4
 ![current Managers](https://github.com/cflavallee/Pewlett-Hackard-Analysis/blob/main/Images/current%20department%20managers.PNG)
 
 ## Summary
-2.  The number of roles that will need to be filled is massive, potentially around 72,000 positions in the near future, including 2 manager roles.  The mentorship program may be able to alleviate some of the burden, but additional measures and hiring strategies will need to be deployed to ensure the continued success of the company.  
+1.  The number of roles that will need to be filled is massive, potentially around 72,000 positions in the near future, including 2 manager roles.  The mentorship program may be able to alleviate some of the burden, but additional measures and hiring strategies will need to be deployed to ensure the continued success of the company.  
 
 2.  The number of qualified retirement-ready inviduals far exceeds those deemed eligible for a mentorship program, whether looking at title or department (see Fig. 4 & Fig. 5).  
 
