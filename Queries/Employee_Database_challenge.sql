@@ -22,6 +22,9 @@ INTO retiring_unique_titles
 FROM retiring_employee_title
 ORDER BY emp_no, to_date DESC;
 
+-- Sum of employees retiring
+SELECT COUNT(emp_no) AS Total_Retiring_Employees
+FROM retiring_unique_titles;
 
  -- Get a count of employees retiring by title.
 SELECT COUNT(emp_no), title
