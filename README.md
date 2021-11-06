@@ -39,6 +39,7 @@ The number of qualified retirement-ready inviduals far exceeds those deemed elig
 
 Fig. 5
 ![Retiring Departments](https://github.com/cflavallee/Pewlett-Hackard-Analysis/blob/main/Images/retiring%20employees%20by%20department.PNG) 
+
 Fig. 6
 ![Mentorship Departments](https://github.com/cflavallee/Pewlett-Hackard-Analysis/blob/main/Images/mentorship%20employees%20by%20department.PNG)
 
