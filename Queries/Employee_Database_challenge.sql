@@ -86,6 +86,21 @@ FROM employee_mentorship_hire_date
 GROUP BY employee_mentorship_hire_date.title
 ORDER BY COUNT(emp_no) DESC;
 
+--Manager by Department and Age
+SELECT e.emp_no, 
+		e.birth_date, 
+		dm.to_date,
+		dm.dept_no,
+		d.dept_name
+FROM employees as e
+LEFT JOIN dept_manager as dm
+ON (e.emp_no = dm.emp_no)
+LEFT JOIN departments as d
+ON (dm.dept_no = d.dept_no)
+WHERE dm.to_date = '9999-01-01'
+ORDER BY e.birth_date DESC;
+
+SELECT * FROM dept_manager WHERE to_date = '9999-01-01';
 
 -- Get the salaries for retire-ready employees.
 SELECT DISTINCT ON (e.emp_no) e.emp_no,
