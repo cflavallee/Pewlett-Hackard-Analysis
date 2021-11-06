@@ -8,7 +8,7 @@ Overall, the numbers show some glaring issues that will need to be addressed.  B
 
 ### Total Employees Retirement-Eligible
 
-* There are an extremely large number of employees set to retire from Pewlett Hackard in the near future, potentially up to 72,458 (see Fig. 1).  This could have serious repercussions for the company if not handled properly.  
+* There are an extremely large number of employees set to retire from Pewlett Hackard in the near future, potentially up to 72,458 (see Fig. 1), which accounts for about 30% of total employees.  This could have serious repercussions for the company if not handled properly.  
 
 Fig. 1
 ![Total Retirement-Eligible](https://github.com/cflavallee/Pewlett-Hackard-Analysis/blob/main/total%20retiring%20employees.PNG)
@@ -30,12 +30,10 @@ Fig. 3
 ![Mentorship Titles](https://github.com/cflavallee/Pewlett-Hackard-Analysis/blob/main/mentorship%20titles.PNG)
 
 Fig. 4 
-![Mentorship Titles](https://github.com/cflavallee/Pewlett-Hackard-Analysis/blob/main/current%20department%20managers.PNG)
+![current Managers](https://github.com/cflavallee/Pewlett-Hackard-Analysis/blob/main/current%20department%20managers.PNG)
 
 ## Summary
 The number of roles that will need to be filled is massive, potentially around 72,000 positions in the near future, including 2 manager roles.  The mentorship program may be able to alleviate some of the burden, but additional measures and hiring strategies will need to be deployed to ensure the continued success of the company.  
-
-Additionally, analyzing the salaries of those who retire ......
 
 The number of qualified retirement-ready inviduals far exceeds those deemed eligible for a mentorship program (see Fig. 5).  An expansion of the mentorship program would be advisable to ensure that enough qualified staff will take over for those retiring. One way to do this and ensure the continued longevity of the company could be to focus on the individuals that were more recently hired. This could help with retaining those staff members and eventually transition them into leadership roles.  
 

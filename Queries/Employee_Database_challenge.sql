@@ -13,7 +13,6 @@ WHERE (e.birth_date BETWEEN '1952-01-01' AND '1955-12-31')
 AND (t.to_date = '9999-01-01')
 ORDER BY e.emp_no;
 
-
 -- Use Dictinct with Orderby to remove duplicate rows
 SELECT DISTINCT ON (emp_no) emp_no,
 first_name,
@@ -33,7 +32,6 @@ INTO retiring_titles
 FROM retiring_unique_titles
 GROUP BY title
 ORDER BY COUNT(emp_no) DESC;
-
 
 
 -- Get the employees eligible for a mentorship program.
@@ -124,15 +122,11 @@ SELECT SUM(salary), title
 FROM employee_retiring_salaries as ers
 GROUP BY ers.title;
 
-DROP TABLE employee_retiring_salaries;
-
+--Total salary of retirement-ready employees
 SELECT SUM(salary)
 FROM employee_retiring_salaries;
 
 
-3,832,741,608
-	
-select * from salaries;
 
 -- Sum of salaries for non-retirement eligible employees.
 SELECT DISTINCT ON(e.emp_no) e.emp_no,
@@ -161,5 +155,15 @@ FROM employee_retiring_salaries;
 167,666 current employees
 $8,889,804,831
 
-90,389
-3,832,741,608
+72,458
+$3,832,741,608
+
+240,124
+$12,722,546,439
+
+select count(emp_no), title
+from titles 
+where to_date = '9999-01-01'
+group by title;
+
+
