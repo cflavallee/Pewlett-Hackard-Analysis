@@ -174,7 +174,10 @@ FROM dept_manager AS dm
         ON (dm.dept_no = d.dept_no)
     INNER JOIN current_emp AS ce
         ON (dm.emp_no = ce.emp_no);
-		
+
+SELECT * FROM dept_manager
+Where dept_manager.to_date = '9999-01-01';
+
 -- Department retiree info
 SELECT ce.emp_no,
 ce.first_name,
