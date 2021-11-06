@@ -8,7 +8,7 @@ Overall, the numbers show some glaring issues that will need to be addressed.  B
 
 * There are an extremely large number of employees set to retire from Pewlett Hackard.  This could have serious repercussions for the company if not handled properly.  
 
-![Total Retire-Eligible](https://github.com/cflavallee/Pewlett-Hackard-Analysis/blob/main/retiring%20titles.PNG)
+![Total Retirement-Eligible](https://github.com/cflavallee/Pewlett-Hackard-Analysis/blob/main/total%20retiring%20employees.PNG)
 
 ### Employees Set To Retire by Title
 
@@ -32,4 +32,5 @@ Overall, the numbers show some glaring issues that will need to be addressed.  B
 ## Summary
 The number of roles that will need to be filled is massive, potentially around 90,000 positions in the near future, including 2 manager roles.  The mentorship program may be able to alleviate some of the burden, but additional measures and hiring strategies will need to be deployed to ensure the continued success of the company.  
 
-The number of qualified retirement-ready inviduals far exceeds those deemed eligible for a mentorship program.  An expansion of the mentorship program would be advisable to ensure that enough qualified staff will take over for those retiring. 
+The number of qualified retirement-ready inviduals far exceeds those deemed eligible for a mentorship program (See Mentorship-Eligible Employees by Title image).  An expansion of the mentorship program would be advisable to ensure that enough qualified staff will take over for those retiring. 
+
