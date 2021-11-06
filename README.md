@@ -38,8 +38,8 @@ The number of roles that will need to be filled is massive, potentially around 7
 The number of qualified retirement-ready inviduals far exceeds those deemed eligible for a mentorship program, whether looking at title or department (see Fig. 4 & Fig. 5).  An expansion of the mentorship program would be advisable to ensure that enough qualified staff will take over for those retiring. One way to do this and ensure the continued longevity of the company could be to focus on individuals that were more recently hired. By expanding the program to include those with under 3 years of experience at the company(see Fig. 7 & Fig. ), the number of mentorship-eligible employees increases greatly and these employees coule become further invested in the company's success. 
 
 Fig. 5
-![Retiring Departments](https://github.com/cflavallee/Pewlett-Hackard-Analysis/blob/main/Images/retiring%20employees%20by%20title.PNG) Fig. 6
-![Mentorship Departments](https://github.com/cflavallee/Pewlett-Hackard-Analysis/blob/main/Images/mentorshipg%20employees%20by%20title.PNG)
+![Retiring Departments](https://github.com/cflavallee/Pewlett-Hackard-Analysis/blob/main/Images/retiring%20employees%20by%20department.PNG) Fig. 6
+![Mentorship Departments](https://github.com/cflavallee/Pewlett-Hackard-Analysis/blob/main/Images/mentorship%20employees%20by%20department.PNG)
 
 Fig. 7
 ![Mentorship Titles](https://github.com/cflavallee/Pewlett-Hackard-Analysis/blob/main/Images/mentorship%20titles.PNG)
