@@ -29,7 +29,7 @@ Fig. 2
 Fig. 3
 ![Mentorship Titles](https://github.com/cflavallee/Pewlett-Hackard-Analysis/blob/main/mentorship%20titles.PNG)
 
-Fig. 4 
+Fig. 4
 ![Mentorship Titles](https://github.com/cflavallee/Pewlett-Hackard-Analysis/blob/main/current%20department%20managers.PNG)
 
 ## Summary
