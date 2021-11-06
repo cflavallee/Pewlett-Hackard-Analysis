@@ -46,7 +46,7 @@ Fig. 6
 3.  An expansion of the mentorship program would be advisable to ensure that enough qualified staff will take over for those retiring. One way to do this and ensure the continued longevity of the company could be to focus on individuals that were more recently hired. By expanding the program to include those with under 3 years of experience at the company and looking by title (compare Fig. 7 & Fig. 8), the number of mentorship-eligible employees increases greatly, specifically for Staff and Engineer (positions that could transition to Senior roles).  By expanding the mentorship program, these employees could become further invested in the company's success and longevity. 
 
 Fig. 7
-![Mentorship Titles](https://github.com/cflavallee/Pewlett-Hackard-Analysis/blob/main/Images/mentorship%20titles.PNG)
+![Mentorship Titles](https://github.com/cflavallee/Pewlett-Hackard-Analysis/blob/main/Images/mentorship%20titles.png)
 
 Fig. 8
 ![Mentorship Hire Date](https://github.com/cflavallee/Pewlett-Hackard-Analysis/blob/main/Images/most%20recent%20hire%20by%20titles.PNG)
