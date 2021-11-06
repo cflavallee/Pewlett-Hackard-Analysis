@@ -8,17 +8,16 @@ Overall, the numbers show some glaring issues that will need to be addressed.  B
 
 * There are an extremely large number of employees set to retire from Pewlett Hackard.  This could have serious repercussions for the company if not handled properly.  
 
-
+* The greatest number of retirees fall under the titles of Senior Engineer and Senior Staff (See image below).  This means that current and future employees will need proper training to fill these Senior roles.  The mentorship program can help with this need.  
 
 ### Employees Set To Retire by Title
-* The greatest number of retirees fall under the titles of Senior Engineer and Senior Staff.  This means that current and future employees will need proper training to fill these Senior roles.  The mentorship program can help with this need.   
 
 ![Retiring Titles](https://github.com/cflavallee/Pewlett-Hackard-Analysis/blob/main/retiring%20titles.PNG)
 
 ### Mentorship-Eligible Employees by Title
 * The number of employees eligible for the mentorship program is quite small.  The program could easily be expanded, even if a fraction of retiring employees stay on board part-time to mentor.    
 
-![Mentorship Titles](https://github.com/cflavallee/Pewlett-Hackard-Analysis/blob/main/mentorship%20titles.PNG)
+![Mentorship Titles](https://github.com/cflavallee/Pewlett-Hackard-Analysis/blob/main/mentorship%20titles1.png)
 
 * Another way to ensure the continued longevity of the company could be to focus on the individuals that were more recently hired in order to retain those staff members and eventually transition them into leadership roles.  
 
