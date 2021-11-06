@@ -74,13 +74,14 @@ INNER JOIN dept_emp as de
 ON (e.emp_no = de.emp_no)
 INNER JOIN titles as t
 ON (e.emp_no = t.emp_no)
-WHERE (de.from_date BETWEEN '1995-01-01' AND '2001-12-31')
+WHERE (de.from_date BETWEEN '1998-01-01' AND '2001-12-31')
 	AND (de.to_date = '9999-01-01');
+
 
 
 -- Number of mentorship-eligible employees by hire date and title.
 SELECT COUNT(emp_no), title
-INTO recent_hire_date_mentorship
+--INTO recent_hire_date_mentorship
 FROM employee_mentorship_hire_date
 GROUP BY employee_mentorship_hire_date.title
 ORDER BY COUNT(emp_no) DESC;
@@ -152,18 +153,16 @@ FROM current_emp_salaries;
 SELECT COUNT(emp_no)
 FROM employee_retiring_salaries;
 
-167,666 current employees
+167,666 current non-retirement-ready employees
 $8,889,804,831
 
-72,458
+72,458 retirement-ready
 $3,832,741,608
 
-240,124
+240,124 total current employees
 $12,722,546,439
 
-select count(emp_no), title
-from titles 
-where to_date = '9999-01-01'
-group by title;
 
+
+select * from employee_retiring_salaries order by salary;
 
