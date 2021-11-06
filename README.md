@@ -4,7 +4,7 @@
 The purpose of this analysis was to use SQL and Postgres to find out how many employees at Pewlett Hackard are set to retire, as well as those eligible for a mentorship program.  Analyzing and understanding these numbers will help Pewlett Hackard to make decisions that could ease the wave of retirees in the near future.  
 
 ## Results
-Overall, the numbers show some glaring issues that will need to be addressed.  Below are some of the key takeaways from the data. 
+Overall, the numbers show some glaring issues that will need to be addressed.  Below are some of the key takeaways from the data with images taken from Postgres queries and tables. 
 
 * There are an extremely large number of employees set to retire from Pewlett Hackard.  This could have serious repercussions for the company if not handled properly.  
 
